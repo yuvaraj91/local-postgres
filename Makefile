@@ -7,4 +7,5 @@ down:
 	@docker-compose down 
 
 .PHONY: stop
-stop: @docker-compose stop
+stop:
+	@docker-compose stop
