@@ -1,4 +1,5 @@
 version: "3.8"
+
 services:
   localpostgres:
     image: postgres:14.1-alpine
@@ -11,3 +12,8 @@ services:
         - "5439:5432"
     volumes: 
         - mydb:/var/lib/postgresql/data
+
+# Store locally on the machine.
+volumes:
+    mydb:
+        driver: local
