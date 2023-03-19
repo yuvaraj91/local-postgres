@@ -4,7 +4,7 @@ Local postgres instance from the official docker image, for local testing and de
 Connection details:
 
 ```
-port: 5432
+port: 5439
 host: localhost
 database: mydb
 user: admin
